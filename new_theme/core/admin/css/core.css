@@ -605,7 +605,7 @@ body.rtl button.et-core-button {
 }
 
 .et-core-loader-success:before,
-.et-core-loader-fail:before{
+.et-core-loader-fail:{
 	font-family: 'ETmodules';
 	font-weight: 600;
 	-webkit-font-smoothing: antialiased;
