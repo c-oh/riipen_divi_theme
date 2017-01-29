@@ -182,6 +182,25 @@ $options = array (
                    "std" => "on",
                    "desc" =>esc_html__( "Here you can choose to display the RSS Icon. ", $themename ) ),
 
+array( "name" =>esc_html__( "Show LinkedIn Icon", $themename ),
+                   "id" => $shortname . "_show_linkedin_icon",
+                   "type" => "checkbox",
+                   "std" => "on",
+                   "desc" =>esc_html__( "Here you can choose to display the LinkedIn Icon on your homepage. ", $themename ) ),
+
+				   array( "name" =>esc_html__( "Show YouTube Icon", $themename ),
+                   "id" => $shortname . "_show_youtube_icon",
+                   "type" => "checkbox",
+                   "std" => "on",
+                   "desc" =>esc_html__( "Here you can choose to display the Youtube Icon on your homepage. ", $themename ) ),
+
+				   array( "name" =>esc_html__( "Show Instagram Icon", $themename ),
+                   "id" => $shortname . "_show_instagram_icon",
+                   "type" => "checkbox",
+                   "std" => "on",
+                   "desc" =>esc_html__( "Here you can choose to display the Instagram Icon on your homepage. ", $themename ) ),
+
+
 			array( "name" =>esc_html__( "Facebook Profile Url", $themename ),
                    "id" => $shortname . "_facebook_url",
                    "std" => "#",

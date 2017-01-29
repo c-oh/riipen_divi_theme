@@ -7,6 +7,7 @@
 		</a>
 	</li>
 <?php endif; ?>
+
 <?php if ( 'on' === et_get_option( 'divi_show_twitter_icon', 'on' ) ) : ?>
 	<li class="et-social-icon et-social-twitter">
 		<a href="<?php echo esc_url( et_get_option( 'divi_twitter_url', '#' ) ); ?>" class="icon">
@@ -14,6 +15,7 @@
 		</a>
 	</li>
 <?php endif; ?>
+
 <?php if ( 'on' === et_get_option( 'divi_show_google_icon', 'on' ) ) : ?>
 	<li class="et-social-icon et-social-google-plus">
 		<a href="<?php echo esc_url( et_get_option( 'divi_google_url', '#' ) ); ?>" class="icon">
@@ -21,6 +23,7 @@
 		</a>
 	</li>
 <?php endif; ?>
+
 <?php if ( 'on' === et_get_option( 'divi_show_rss_icon', 'on' ) ) : ?>
 <?php
 	$et_rss_url = '' !== et_get_option( 'divi_rss_url' )
@@ -34,7 +37,7 @@
 	</li>
 <?php endif; ?>
 
-<?php endif; ?>
+
 <?php if ( 'on' === et_get_option( 'divi_show_linkedin_icon', 'on' ) ) : ?>
 	<li class="et-social-icon et-social-linkedin">
 		<a href="<?php echo esc_url( et_get_option( 'divi_linkedin_url', '#' ) ); ?>" class="icon">
@@ -43,7 +46,7 @@
 	</li>
 <?php endif; ?>
 
-<?php endif; ?>
+
 <?php if ( 'on' === et_get_option( 'divi_show_youtube_icon', 'on' ) ) : ?>
 	<li class="et-social-icon et-social-youtube">
 		<a href="<?php echo esc_url( et_get_option( 'divi_youtube_url', '#' ) ); ?>" class="icon">
@@ -52,7 +55,7 @@
 	</li>
 <?php endif; ?>
 
-<?php endif; ?>
+
 <?php if ( 'on' === et_get_option( 'divi_show_instagram_icon', 'on' ) ) : ?>
 	<li class="et-social-icon et-social-instagram">
 		<a href="<?php echo esc_url( et_get_option( 'divi_instagram_url', '#' ) ); ?>" class="icon">
