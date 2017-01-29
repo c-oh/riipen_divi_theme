@@ -8060,7 +8060,8 @@ function et_password_form() {
 	);
 
 	$output = sprintf(
-		'<div class="et_pb_section et_section_regular">
+		'<div class="et_pb_section et_section_regular" rel="m_PageScroll2id>
+	
 			<div class="et_pb_row">
 				<div class="et_pb_column et_pb_column_4_4">
 					%1$s
