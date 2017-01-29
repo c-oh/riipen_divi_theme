@@ -203,6 +203,28 @@ $options = array (
                    "validation_type" => "url",
 				   "desc" =>esc_html__( "Enter the URL of your Google+ Profile. ", $themename ) ),
 
+			array( "name" =>esc_html__( "LinkedIn", $themename ),
+                   "id" => $shortname . "_linkedin_url",
+                   "std" => "",
+                   "type" => "text",
+                   "validation_type" => "url",
+				   "desc" =>esc_html__( "Enter the URL of your LinkedIn. ", $themename ) ),
+
+			array( "name" =>esc_html__( "YouTube", $themename ),
+                   "id" => $shortname . "_youtube_url",
+                   "std" => "",
+                   "type" => "text",
+                   "validation_type" => "url",
+				   "desc" =>esc_html__( "Enter the URL of your YouTube. ", $themename ) ),
+			
+			array( "name" =>esc_html__( "Instagram", $themename ),
+                   "id" => $shortname . "_instagram_url",
+                   "std" => "",
+                   "type" => "text",
+                   "validation_type" => "url",
+				   "desc" =>esc_html__( "Enter the URL of your Instagram. ", $themename ) ),
+
+
 			array( "name" =>esc_html__( "RSS Icon Url", $themename ),
                    "id" => $shortname . "_rss_url",
                    "std" => "",
