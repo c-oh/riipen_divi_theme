@@ -17,6 +17,7 @@
 		endforeach;
 	?>
 			</div>
+			<div class="right-container">
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mailchimp">
 				
@@ -35,6 +36,7 @@
 				?>
 			</div>
 			<!--social media-->
+		</div>
 		</div>
 		<!-- #footer-widgets -->
 		<div class="copyright">
