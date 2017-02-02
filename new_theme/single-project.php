@@ -47,7 +47,7 @@ $show_navigation = get_post_meta( get_the_ID(), '_et_pb_project_nav', true );
 
 				<?php endif; ?>
 
-					<div class="entry-content">
+					<div class="entry-content" id="fullpage">
 					<?php
 						the_content();
 

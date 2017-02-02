@@ -279,4 +279,4 @@
 			</div>
 		</header> <!-- #main-header -->
 
-		<div id="et-main-area fullpage">
+		<div id="et-main-area ">
