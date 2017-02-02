@@ -33,7 +33,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<div id="page-container fullpage">
+	<div id="page-container">
 <?php
 	if ( is_page_template( 'page-template-blank.php' ) ) {
 		return;
@@ -279,4 +279,4 @@
 			</div>
 		</header> <!-- #main-header -->
 
-		<div id="et-main-area">
+		<div id="et-main-area fullpage">
