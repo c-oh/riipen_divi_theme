@@ -20,7 +20,7 @@
 			<div class="right-container">
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mailchimp">
-				
+				<p class= "subscribe-text">Stay up to date with news, projects and more!</p>
 			<?php echo do_shortcode( '[yikes-mailchimp form="1"]' ); ?>
 
 			</div>
